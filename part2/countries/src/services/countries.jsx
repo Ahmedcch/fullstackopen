@@ -7,4 +7,5 @@ const getAll = () => {
   return request.then((response) => response.data);
 };
 
-export default { getAll };
+export default getAll;
+// export default {getAll, update, delete, send}; // Add them in an object if you have more than 1 function for the server
