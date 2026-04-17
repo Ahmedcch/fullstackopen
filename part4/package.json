@@ -1,0 +1,28 @@
+{
+  "name": "part4",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "starts": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "MIT"
+  ],
+  "author": "Ahmed Saber",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.0",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1"
+  }
+}

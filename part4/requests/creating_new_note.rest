@@ -1,0 +1,8 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNheWVkIiwiaWQiOiI2OWUyNjFjYzZkMzJkNWIyMTVkMzM2ZDkiLCJpYXQiOjE3NzY0NDU0MDh9.v8AUIIVMX4ZRpD9m0dn-JeKFKe9SpmApr-6E1NUmzww
+
+{
+    "content": "Single page apps use token based auth 3",
+    "important": false
+}
